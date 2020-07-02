@@ -56,8 +56,22 @@ nav {
 }
 
 .navbar a {
+  display: block;
+  height: 100%;
+}
+
+.navbar li :hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-clip: padding-box;
+}
+
+.navbar a :hover {
+  background: none;
+}
+
+.navbar a span {
   position: relative;
-  top: 12px;
+  top: 10px;
   color: white;
 }
 
@@ -72,6 +86,7 @@ nav {
 
 .apple {
   font-size: 18px;
+  top: 12px;
 }
 
 .search-form {
